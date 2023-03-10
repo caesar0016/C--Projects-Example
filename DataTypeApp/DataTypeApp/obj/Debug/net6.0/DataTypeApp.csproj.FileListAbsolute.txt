@@ -1,0 +1,15 @@
+C:\Users\STI\source\repos\DataTypeApp\DataTypeApp\bin\Debug\net6.0\DataTypeApp.exe
+C:\Users\STI\source\repos\DataTypeApp\DataTypeApp\bin\Debug\net6.0\DataTypeApp.deps.json
+C:\Users\STI\source\repos\DataTypeApp\DataTypeApp\bin\Debug\net6.0\DataTypeApp.runtimeconfig.json
+C:\Users\STI\source\repos\DataTypeApp\DataTypeApp\bin\Debug\net6.0\DataTypeApp.dll
+C:\Users\STI\source\repos\DataTypeApp\DataTypeApp\bin\Debug\net6.0\DataTypeApp.pdb
+C:\Users\STI\source\repos\DataTypeApp\DataTypeApp\obj\Debug\net6.0\DataTypeApp.csproj.AssemblyReference.cache
+C:\Users\STI\source\repos\DataTypeApp\DataTypeApp\obj\Debug\net6.0\DataTypeApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\STI\source\repos\DataTypeApp\DataTypeApp\obj\Debug\net6.0\DataTypeApp.AssemblyInfoInputs.cache
+C:\Users\STI\source\repos\DataTypeApp\DataTypeApp\obj\Debug\net6.0\DataTypeApp.AssemblyInfo.cs
+C:\Users\STI\source\repos\DataTypeApp\DataTypeApp\obj\Debug\net6.0\DataTypeApp.csproj.CoreCompileInputs.cache
+C:\Users\STI\source\repos\DataTypeApp\DataTypeApp\obj\Debug\net6.0\DataTypeApp.dll
+C:\Users\STI\source\repos\DataTypeApp\DataTypeApp\obj\Debug\net6.0\refint\DataTypeApp.dll
+C:\Users\STI\source\repos\DataTypeApp\DataTypeApp\obj\Debug\net6.0\DataTypeApp.pdb
+C:\Users\STI\source\repos\DataTypeApp\DataTypeApp\obj\Debug\net6.0\DataTypeApp.genruntimeconfig.cache
+C:\Users\STI\source\repos\DataTypeApp\DataTypeApp\obj\Debug\net6.0\ref\DataTypeApp.dll
