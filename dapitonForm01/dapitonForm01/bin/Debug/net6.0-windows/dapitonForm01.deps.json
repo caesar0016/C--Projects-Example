@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "dapitonForm01/1.0.0": {
+        "runtime": {
+          "dapitonForm01.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "dapitonForm01/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
