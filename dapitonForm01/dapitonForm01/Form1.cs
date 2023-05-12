@@ -44,7 +44,7 @@ namespace dapitonForm01
 
             string show01 = message01(firstName, middleName, lastName, gender01, date, program);
             string show02 = message02(firstName, middleName, lastName, program);
-            string show03 = message03(firstName, middleName, program);
+            string show03 = message03(firstName, lastName, program);
 
             MessageBox.Show(show01);
             MessageBox.Show(show02);
