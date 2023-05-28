@@ -1,0 +1,17 @@
+C:\Users\dapit\source\repos\studentInfoApp\bin\Debug\net6.0-windows\studentInfoApp.exe
+C:\Users\dapit\source\repos\studentInfoApp\bin\Debug\net6.0-windows\studentInfoApp.deps.json
+C:\Users\dapit\source\repos\studentInfoApp\bin\Debug\net6.0-windows\studentInfoApp.runtimeconfig.json
+C:\Users\dapit\source\repos\studentInfoApp\bin\Debug\net6.0-windows\studentInfoApp.dll
+C:\Users\dapit\source\repos\studentInfoApp\bin\Debug\net6.0-windows\studentInfoApp.pdb
+C:\Users\dapit\source\repos\studentInfoApp\obj\Debug\net6.0-windows\studentInfoApp.csproj.AssemblyReference.cache
+C:\Users\dapit\source\repos\studentInfoApp\obj\Debug\net6.0-windows\studentInfoApp.Form1.resources
+C:\Users\dapit\source\repos\studentInfoApp\obj\Debug\net6.0-windows\studentInfoApp.csproj.GenerateResource.cache
+C:\Users\dapit\source\repos\studentInfoApp\obj\Debug\net6.0-windows\studentInfoApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dapit\source\repos\studentInfoApp\obj\Debug\net6.0-windows\studentInfoApp.AssemblyInfoInputs.cache
+C:\Users\dapit\source\repos\studentInfoApp\obj\Debug\net6.0-windows\studentInfoApp.AssemblyInfo.cs
+C:\Users\dapit\source\repos\studentInfoApp\obj\Debug\net6.0-windows\studentInfoApp.csproj.CoreCompileInputs.cache
+C:\Users\dapit\source\repos\studentInfoApp\obj\Debug\net6.0-windows\studentInfoApp.dll
+C:\Users\dapit\source\repos\studentInfoApp\obj\Debug\net6.0-windows\refint\studentInfoApp.dll
+C:\Users\dapit\source\repos\studentInfoApp\obj\Debug\net6.0-windows\studentInfoApp.pdb
+C:\Users\dapit\source\repos\studentInfoApp\obj\Debug\net6.0-windows\studentInfoApp.genruntimeconfig.cache
+C:\Users\dapit\source\repos\studentInfoApp\obj\Debug\net6.0-windows\ref\studentInfoApp.dll
