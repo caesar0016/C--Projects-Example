@@ -58,14 +58,7 @@ namespace EmployeeApplication
 
 
         }
-        public Employee(string firstName, string lastName) //does not required to input position 
-        {
 
-            this.firstName = firstName;
-            this.lastName = lastName;
-
-
-        }
 
     }
 }

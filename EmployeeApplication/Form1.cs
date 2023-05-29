@@ -41,10 +41,11 @@ namespace EmployeeApplication
                 bttnSubmit.Enabled = false;
 
                 Employee emp1 = new Employee(Convert.ToInt32(txtEmployeedID.Text), txtFirstName.Text, txtLastName.Text, txtPosition.Text);
-                Employee emp2 = new Employee(txtFirstName.Text, txtLastName.Text);
+                Employee emp2 = new Employee(Convert.ToInt32(txtEmployeedID.Text), txtFirstName.Text, txtLastName.Text);
 
-                string[] addRowsEmp1 = { emp1.encapEmpID.ToString(), emp1.encapfirstName, emp1.encaplastName, emp1.encapPosition };
-                addRowsEmp1 = new string[]{emp2.encapfirstName, emp2.encaplastName};
+                string[] addRowsEmp1 = {emp1.encapfirstName, emp1.encaplastName};
+                addRowsEmp1 = new string[]{ emp1.encapEmpID.ToString(), emp1.encapfirstName, emp1.encaplastName, emp1.encapPosition };
+                
                 gridViewData.Rows.Add(addRowsEmp1);
                 
 
@@ -53,9 +54,9 @@ namespace EmployeeApplication
                 txtLastName.Text = "";
                 txtPosition.Text = "";
             }
-            catch (Exception ex)
+            catch (FormatException ex)
             {
-                MessageBox.Show(ex.Message);
+                MessageBox.Show("Try again in Employee ID");
             }
             finally
             {
