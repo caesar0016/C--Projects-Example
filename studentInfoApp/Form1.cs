@@ -15,24 +15,35 @@ namespace studentInfoApp
             {
 
 
-                studentInfo s1 = new studentInfo(Convert.ToInt32(txtStudentId.Text), txtLastName.Text, txtFirstName.Text);
+                studentInfo s1 = new studentInfo(Convert.ToInt32(txtStudentId.Text), txtFirstName.Text,txtLastName.Text);
+                studentInfo s2 = new studentInfo(Convert.ToInt32(txtStudentId.Text), txtFirstName.Text);
 
-                string name = "Hello, World";
+                if (txtLastName.Text.Equals(null))
+                {
+                    txtLastName.Text = " ";
+                    listStudentID.Items.Add(s2.IDStudent);
+                    listFirst01Name.Items.Add(s2.fName);
 
 
-                listStudentID.Items.Add(s1.IDStudent);
-                listFirstName.Items.Add(s1.fName);
-                listLastName.Items.Add(s1.lName);
+                }
+                else {
+
+                    listStudentID.Items.Add(s1.IDStudent);
+                    listLastName.Items.Add(s1.lName);
+                    listFirst01Name.Items.Add(s1.fName);
+                }
+
+                
 
                 txtStudentId.Text = "";
                 txtLastName.Text = "";
                 txtFirstName.Text = "";
 
             }
-            catch (Exception) //handles Exepction
+            catch (Exception ex) //handles Exepction
             {
 
-                MessageBox.Show("Input Invalid Pls try Again");
+                MessageBox.Show("Invalid Input... Pls Try Again");
                 txtStudentId.Text = "";
                 txtLastName.Text = "";
                 txtFirstName.Text = "";

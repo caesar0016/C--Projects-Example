@@ -9,22 +9,29 @@ namespace studentInfoApp
         private string lastName;
         private int studentID;
 
+        public studentInfo()
+        { //default constructor
+
+
+
+
+        }
+        public studentInfo(int student_ID , string firstName)
+        {
+
+            this.studentID = student_ID;
+            this.firstName = firstName;
+
+        }
         public studentInfo(int userID, string firstName, string lastName){ //overloading constructor
 
-            IDStudent = userID;
-            fName = firstName;
-            lName = lastName;
+            this.studentID = userID;
+            this.firstName = firstName;
+            this.lastName = lastName;
 
         }
 
-        public studentInfo() { //default constructor
 
-            IDStudent = this.IDStudent;
-            fName = this.firstName;
-            lName = this.lastName;
-
-
-        }
         public string fName{  //encapsulation for firstName
 
             get { return firstName; }

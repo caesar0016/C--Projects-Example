@@ -38,12 +38,13 @@
             this.listStudentID = new System.Windows.Forms.ListBox();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
-            this.listFirstName = new System.Windows.Forms.ListBox();
-            this.label6 = new System.Windows.Forms.Label();
             this.listLastName = new System.Windows.Forms.ListBox();
+            this.listFirst01Name = new System.Windows.Forms.ListBox();
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.label1 = new System.Windows.Forms.Label();
             this.bttnClear = new System.Windows.Forms.Button();
+            this.panel2.SuspendLayout();
             this.SuspendLayout();
             // 
             // labelS
@@ -131,32 +132,23 @@
             this.label5.TabIndex = 10;
             this.label5.Text = "First Name List";
             // 
-            // listFirstName
-            // 
-            this.listFirstName.FormattingEnabled = true;
-            this.listFirstName.ItemHeight = 15;
-            this.listFirstName.Location = new System.Drawing.Point(238, 249);
-            this.listFirstName.Name = "listFirstName";
-            this.listFirstName.Size = new System.Drawing.Size(120, 94);
-            this.listFirstName.TabIndex = 9;
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(465, 208);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(84, 15);
-            this.label6.TabIndex = 12;
-            this.label6.Text = "Last Name List";
-            // 
             // listLastName
             // 
             this.listLastName.FormattingEnabled = true;
             this.listLastName.ItemHeight = 15;
-            this.listLastName.Location = new System.Drawing.Point(445, 249);
+            this.listLastName.Location = new System.Drawing.Point(445, 54);
             this.listLastName.Name = "listLastName";
             this.listLastName.Size = new System.Drawing.Size(120, 94);
-            this.listLastName.TabIndex = 11;
+            this.listLastName.TabIndex = 9;
+            // 
+            // listFirst01Name
+            // 
+            this.listFirst01Name.FormattingEnabled = true;
+            this.listFirst01Name.ItemHeight = 15;
+            this.listFirst01Name.Location = new System.Drawing.Point(247, 54);
+            this.listFirst01Name.Name = "listFirst01Name";
+            this.listFirst01Name.Size = new System.Drawing.Size(120, 94);
+            this.listFirst01Name.TabIndex = 11;
             // 
             // panel1
             // 
@@ -169,10 +161,23 @@
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.panel2.Controls.Add(this.label1);
+            this.panel2.Controls.Add(this.listFirst01Name);
+            this.panel2.Controls.Add(this.listLastName);
             this.panel2.Location = new System.Drawing.Point(0, 195);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(600, 193);
             this.panel2.TabIndex = 0;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.label1.Location = new System.Drawing.Point(465, 13);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(84, 15);
+            this.label1.TabIndex = 15;
+            this.label1.Text = "Last Name List";
             // 
             // bttnClear
             // 
@@ -190,10 +195,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(600, 450);
             this.Controls.Add(this.bttnClear);
-            this.Controls.Add(this.label6);
-            this.Controls.Add(this.listLastName);
             this.Controls.Add(this.label5);
-            this.Controls.Add(this.listFirstName);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.listStudentID);
             this.Controls.Add(this.bttnSubmit);
@@ -206,7 +208,9 @@
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Student Info";
+            this.panel2.ResumeLayout(false);
+            this.panel2.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -224,11 +228,11 @@
         private ListBox listStudentID;
         private Label label4;
         private Label label5;
-        private ListBox listFirstName;
-        private Label label6;
         private ListBox listLastName;
+        private ListBox listFirst01Name;
         private Panel panel1;
         private Panel panel2;
         private Button bttnClear;
+        private Label label1;
     }
 }
