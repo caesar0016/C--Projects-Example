@@ -25,28 +25,31 @@ namespace EmployeeApplication
             txtPosition.Text = "";
         }
 
-        private void bttnFill_Click(object sender, EventArgs e)
-        {
-            txtEmployeedID.Text = "2052";
-            txtFirstName.Text = "Naruto";
-            txtLastName.Text = "Uzumaki";
-            txtPosition.Text = "Hokage";
-        }
-
         private void bttnSubmit_Click(object sender, EventArgs e)
         {
             try
             {
-                // Disable the submit button to prevent multiple submissions
-                bttnSubmit.Enabled = false;
 
                 Employee emp1 = new Employee(Convert.ToInt32(txtEmployeedID.Text), txtFirstName.Text, txtLastName.Text, txtPosition.Text);
                 Employee emp2 = new Employee(Convert.ToInt32(txtEmployeedID.Text), txtFirstName.Text, txtLastName.Text);
 
-                string[] addRowsEmp1 = {emp1.encapfirstName, emp1.encaplastName};
-                addRowsEmp1 = new string[]{ emp1.encapEmpID.ToString(), emp1.encapfirstName, emp1.encaplastName, emp1.encapPosition };
                 
-                gridViewData.Rows.Add(addRowsEmp1);
+                
+
+                if (txtPosition.Text.Equals("") || txtPosition.Text == null)
+                {
+                    
+                    string[] addRowsEmp2 = {emp2.encapEmpID.ToString(), emp2.encapfirstName, emp2.encaplastName };
+                    gridViewData.Rows.Add(addRowsEmp2);
+
+                }
+                else {
+
+                    string[] addRowsEmp1 = { emp1.encapEmpID.ToString(), emp1.encapfirstName, emp1.encaplastName, emp1.encapPosition }; //this overrides the position
+
+                    gridViewData.Rows.Add(addRowsEmp1);
+
+                }
                 
 
                 txtEmployeedID.Text = "";
@@ -54,17 +57,10 @@ namespace EmployeeApplication
                 txtLastName.Text = "";
                 txtPosition.Text = "";
             }
-            catch (FormatException ex)
+            catch (Exception ex)
             {
                 MessageBox.Show("Try again in Employee ID");
             }
-            finally
-            {
-                // Enable the submit button again after the operation is completed
-                bttnSubmit.Enabled = true;
-            }
-
-
 
         }
         void showGrid() { //shows the grid upon loading in loader

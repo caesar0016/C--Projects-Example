@@ -42,7 +42,6 @@
             this.txtLastName = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
-            this.bttnFill = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.gridViewData)).BeginInit();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
@@ -193,23 +192,12 @@
             this.label6.Text = "Employee List";
             this.label6.Click += new System.EventHandler(this.label6_Click);
             // 
-            // bttnFill
-            // 
-            this.bttnFill.Location = new System.Drawing.Point(631, 16);
-            this.bttnFill.Name = "bttnFill";
-            this.bttnFill.Size = new System.Drawing.Size(75, 23);
-            this.bttnFill.TabIndex = 10;
-            this.bttnFill.Text = "Fill";
-            this.bttnFill.UseVisualStyleBackColor = true;
-            this.bttnFill.Click += new System.EventHandler(this.bttnFill_Click);
-            // 
             // frmEmployeeDatabase
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.ClientSize = new System.Drawing.Size(718, 365);
-            this.Controls.Add(this.bttnFill);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.gridViewData);
@@ -240,6 +228,5 @@
         private Label label2;
         private Label label5;
         private Label label6;
-        private Button bttnFill;
     }
 }
