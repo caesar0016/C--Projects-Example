@@ -21,5 +21,16 @@ namespace loggs_dapiton
         {
 
         }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            Category c1 = new Category();
+            c1.Show();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

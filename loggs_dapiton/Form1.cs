@@ -34,8 +34,11 @@ namespace loggs_dapiton
                     txtUser.Text = "";
                     txtPass.Text = "";
 
-                    Product p1 = new Product();
-                    p1.Show();
+                    //Product p1 = new Product();
+                    //p1.Show();
+
+                    Main m1 = new Main();
+                    m1.Show();
 
 
 
