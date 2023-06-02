@@ -28,22 +28,22 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.userBox = new System.Windows.Forms.TextBox();
+            this.txtUser = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.passBox = new System.Windows.Forms.TextBox();
+            this.txtPass = new System.Windows.Forms.TextBox();
             this.loginBttn = new System.Windows.Forms.Button();
-            this.comboUser = new System.Windows.Forms.ComboBox();
+            this.bttnFill = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // userBox
+            // txtUser
             // 
-            this.userBox.Location = new System.Drawing.Point(109, 103);
-            this.userBox.Name = "userBox";
-            this.userBox.Size = new System.Drawing.Size(174, 23);
-            this.userBox.TabIndex = 0;
-            this.userBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txtUser.Location = new System.Drawing.Point(109, 103);
+            this.txtUser.Name = "txtUser";
+            this.txtUser.Size = new System.Drawing.Size(174, 23);
+            this.txtUser.TabIndex = 0;
+            this.txtUser.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // label1
             // 
@@ -73,13 +73,13 @@
             this.label3.TabIndex = 4;
             this.label3.Text = "Password";
             // 
-            // passBox
+            // txtPass
             // 
-            this.passBox.Location = new System.Drawing.Point(109, 189);
-            this.passBox.Name = "passBox";
-            this.passBox.Size = new System.Drawing.Size(174, 23);
-            this.passBox.TabIndex = 3;
-            this.passBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txtPass.Location = new System.Drawing.Point(109, 189);
+            this.txtPass.Name = "txtPass";
+            this.txtPass.Size = new System.Drawing.Size(174, 23);
+            this.txtPass.TabIndex = 3;
+            this.txtPass.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // loginBttn
             // 
@@ -91,13 +91,15 @@
             this.loginBttn.UseVisualStyleBackColor = true;
             this.loginBttn.Click += new System.EventHandler(this.loginBttn_Click);
             // 
-            // comboUser
+            // bttnFill
             // 
-            this.comboUser.FormattingEnabled = true;
-            this.comboUser.Location = new System.Drawing.Point(121, 324);
-            this.comboUser.Name = "comboUser";
-            this.comboUser.Size = new System.Drawing.Size(121, 23);
-            this.comboUser.TabIndex = 6;
+            this.bttnFill.Location = new System.Drawing.Point(167, 60);
+            this.bttnFill.Name = "bttnFill";
+            this.bttnFill.Size = new System.Drawing.Size(75, 23);
+            this.bttnFill.TabIndex = 6;
+            this.bttnFill.Text = "Fill";
+            this.bttnFill.UseVisualStyleBackColor = true;
+            this.bttnFill.Click += new System.EventHandler(this.txtFill_Click);
             // 
             // Form1
             // 
@@ -105,13 +107,13 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlDarkDark;
             this.ClientSize = new System.Drawing.Size(484, 450);
-            this.Controls.Add(this.comboUser);
+            this.Controls.Add(this.bttnFill);
             this.Controls.Add(this.loginBttn);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.passBox);
+            this.Controls.Add(this.txtPass);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.userBox);
+            this.Controls.Add(this.txtUser);
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);
@@ -121,12 +123,12 @@
 
         #endregion
 
-        private TextBox userBox;
+        private TextBox txtUser;
         private Label label1;
         private Label label2;
         private Label label3;
-        private TextBox passBox;
+        private TextBox txtPass;
         private Button loginBttn;
-        private ComboBox comboUser;
+        private Button bttnFill;
     }
 }
