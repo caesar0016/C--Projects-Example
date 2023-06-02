@@ -22,3 +22,7 @@ C:\Users\dapit\source\repos\loggs_dapiton\obj\Debug\net6.0-windows\refint\loggs_
 C:\Users\dapit\source\repos\loggs_dapiton\obj\Debug\net6.0-windows\loggs_dapiton.pdb
 C:\Users\dapit\source\repos\loggs_dapiton\obj\Debug\net6.0-windows\loggs_dapiton.genruntimeconfig.cache
 C:\Users\dapit\source\repos\loggs_dapiton\obj\Debug\net6.0-windows\ref\loggs_dapiton.dll
+C:\Users\dapit\source\repos\loggs_dapiton\obj\Debug\net6.0-windows\loggs_dapiton.Main.resources
+C:\Users\dapit\source\repos\loggs_dapiton\obj\Debug\net6.0-windows\loggs_dapiton.Product.resources
+C:\Users\dapit\source\repos\loggs_dapiton\obj\Debug\net6.0-windows\loggs_dapiton.Properties.Resources.resources
+C:\Users\dapit\source\repos\loggs_dapiton\obj\Debug\net6.0-windows\loggs_dapiton.Category.resources
