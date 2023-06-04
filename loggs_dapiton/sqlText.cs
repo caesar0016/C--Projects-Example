@@ -1,4 +1,6 @@
-﻿using System.Data.SqlClient;
+﻿using System.Data;
+using System.Data.SqlClient;
+using System.Windows.Forms;
 
 
 namespace loggs_dapiton
@@ -6,7 +8,7 @@ namespace loggs_dapiton
     internal class sqlText
     {
         public SqlConnection cn = new SqlConnection();
-
+        
         public void connect() {
 
 
@@ -57,7 +59,22 @@ namespace loggs_dapiton
 
         }//end of Cmdquery
 
+        public void gridView(DataGridView dataGridView, string query) { //needs dataGrid name, query and tbl name
 
+            cn.Close();
+            cn.Open();
+            SqlCommand cmd = new SqlCommand(query, cn);
+            SqlDataAdapter adapter = new SqlDataAdapter(cmd);
+
+            
+            DataTable dt = new DataTable();
+
+            adapter.Fill(dt);
+            dataGridView.DataSource = dt;
+            cn.Close();
+
+        
+        }
 
 
     }

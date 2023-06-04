@@ -26,11 +26,17 @@ namespace loggs_dapiton
         {
             Category c1 = new Category();
             c1.Show();
+            this.Hide();
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void Main_Load(object sender, EventArgs e)
+        {
+            
         }
     }
 }

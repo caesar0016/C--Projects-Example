@@ -39,7 +39,7 @@ namespace loggs_dapiton
 
                     Main m1 = new Main();
                     m1.Show();
-
+                    this.Hide();
 
 
                 }
