@@ -59,5 +59,15 @@ namespace loggs_dapiton.Properties {
                 resourceCulture = value;
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap business_and_finance {
+            get {
+                object obj = ResourceManager.GetObject("business-and-finance", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
     }
 }
