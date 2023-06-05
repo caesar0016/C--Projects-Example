@@ -253,8 +253,10 @@
             this.Controls.Add(this.gridCategory);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.panel3);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Category";
             this.Text = "Category";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.Category_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();

@@ -18,14 +18,34 @@ namespace loggs_dapiton
         }
         sqlText dbCn = new sqlText();
 
-        private void bttnAdd_Click(object sender, EventArgs e)
+        private void label1_Click(object sender, EventArgs e)
         {
-            string add = "insert into product (productName, productDesc, quantity) values('" + txtProductName.Text + "', '" + txtDesc.Text + "', '" + Convert.ToInt32(txtQuantity.Text) + "')";
-            dbCn.connect();
-            dbCn.UID(add);
-            dbCn.disc();
-            MessageBox.Show("Success Saved");
-            
+
+        }
+
+        private void Product_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void label7_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void InventoryLbl_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void bttnRecycleBin_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
